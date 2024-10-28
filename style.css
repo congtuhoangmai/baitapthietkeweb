@@ -1,0 +1,817 @@
+body {
+    background-color: rgb(242, 246, 252);
+}
+
+.page {
+    background-color: rgb(242, 246, 252);
+}
+
+.sidebar {
+    font-size: 14px;
+    width: 295.163px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 15px 0px 20px 20px;
+    box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.08);
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.image-onthisinhvien {
+    width: 80%;
+    cursor: pointer;
+}
+
+.dai-hoc {
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 135px;
+    width: 285.163px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.truong-dai-hoc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 36px;
+    width: 270.763px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.anh-dai-hoc-container-a {
+    background-color: rgb(244, 12, 68);
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.anh-dai-hoc-a {
+    width: 18px;
+    height: 18px;
+}
+
+.anh-dai-hoc-container {
+    margin-right: 10px;
+}
+
+.anh-dai-hoc {
+    width: 36px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.anh-dai-hoc-container-hust {
+    margin-right: 6px;
+}
+
+.anh-dai-hoc-container-huce {
+    margin-right: 6px;
+}
+
+.hust {
+    width: 30px;
+    object-fit: contain;
+    margin-right: 6px;
+    padding-left: 3px;
+}
+.huce {
+    width: 30px;
+    object-fit: contain;
+    margin-right: 6px;
+    padding-left: 3px;
+}
+
+.onthisinhvien-container {
+    background-color: white;
+    width: 274.763px;
+    padding-top: 12px;
+    display: flex;
+    cursor: pointer;
+    top: 520px;
+    flex-direction: row;
+}
+
+.logo-onthisinhvien {
+    width: 40px;
+    height: 40px;
+}
+
+.about-onthisinhvien {
+    margin-left: 12px;
+    height: 45px;
+    width: 172.413px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.chu-onthisinhvien {
+    display: flex;
+    flex-direction: row;
+}
+
+.chu-onthisinhvien p {
+    margin: 0 5px 0 0;
+}
+
+.nut-theo-doi {
+    height: 8px;
+    width: 54px;
+    padding: 6px 8px 6px 8px;
+    margin-top: 4px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(46, 123, 255);
+    border: none;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hien-tai {
+    width: 274.763px;
+    height: 36px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    font-size: 16px;
+}
+
+.nam {
+    width: 117.387px;
+    height: 21px;
+    padding: 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(249, 245, 250);
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.hoc-vien {
+    height: 21px;
+    width: 259.763px;
+    padding: 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    background-color: rgb(249, 245, 250);
+    font-weight: bold;
+}
+
+.khoa-hoc {
+    height: 21px;
+    width: 117.387px;
+    padding: 7.5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(249, 245, 250);
+}
+
+.logo-lien-he {
+    height: 117.2px;
+    width: 274.763px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 42px;
+    margin: 10px;
+}
+
+.header {
+    background-color: rgb(242, 246, 252);
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 320px;
+    top: 0;
+    height: 30px;
+    z-index: 10;
+    padding: 16px 36px 16px 36px;
+}
+
+.tim-kiem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 183px;
+}
+
+.input {
+    border: none;
+    padding-left: 14px;
+    width: 197px;
+    height: 30px;
+    max-width: 240px;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 400;
+    box-shadow: 0px 4px 8px 0px rgba(219, 201, 206, 0.4)
+}
+
+.giua-header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.icon-header {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.giua-header-image {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.phai-header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(219, 201, 206, 0.4);
+    border: none;
+    min-width: 64px;
+    border-radius: 50px;
+    height: 26px;
+    margin-right: 12px;
+    padding: 2px 6px 2px 2px;
+    box-sizing: border-box;
+    color: rgb(241, 57, 113);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.story img {
+    margin-right: 5px;
+}
+
+.cart-container {
+    border-width: 0.8px;
+    margin-right: 16px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px 0px rgba(219, 201, 206, 0.4);
+    cursor: pointer;
+}
+
+.cart {
+    width: 18px;
+}
+
+.dang-nhap {
+    box-shadow: 0px 4px 8px 0px rgba(219, 201, 206, 0.4);
+    border: none;
+    padding: 6px 10px 6px 10px;
+    border-radius: 50px;
+    color: #7A7C8B;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.dang-ky {
+    box-shadow: 0px 4px 8px 0px rgba(219, 201, 206, 0.4);
+    border: none;
+    padding: 6px 10px 6px 10px;
+    margin-left: 8px;
+    border-radius: 50px;
+    color: #7A7C8B;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main {
+    right: 0;
+    top: 0;
+    left: 320px;
+    position: absolute;
+    top: 62px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: rgb(242, 246, 252);
+    padding-bottom: 60px;
+}
+
+.button-div-prev {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 5px;
+    cursor: pointer;
+}
+
+.button-div-next {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 5px;
+    cursor: pointer;
+}
+
+.next-button {
+    width: 10px;
+    height: 10px;
+}
+
+.prev-button {
+    width: 10px;
+    height: 10px;
+}
+
+.swiper {
+    margin-bottom: 16px;
+}
+
+.swiper-slide {
+    white-space: nowrap;
+}
+
+.tin {
+    height: 204px;
+    width: 120px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.story-img {
+    width: 120px;
+    height: 204px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.tao-tin {
+    height: 202.4px;
+    width: 118.4px;
+    border: 1px solid pink;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+
+.story-default {
+    height: 150px;
+    width: 118.4px;
+    position: absolute;
+    top: 27px;
+}
+
+.kham-pha {
+    height: 202.4px;
+    width: 118.4px;
+    border: 1px solid pink;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 8px;
+    position: relative;    
+}
+
+.kham-pha-img {
+    height: 202.4px;
+    width: 118.4px;
+    position: absolute;
+}
+
+.kham-pha-icon {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28.4px;
+    margin-left: -10px;
+}
+
+.chu-kham-pha-them {
+    font-size: 12px;
+    top: 50%;
+    left: 35px;
+    text-align: center;
+    width: 50px;
+    white-space: normal;
+    position: absolute;
+}
+
+.dau-cong {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    top: 86.8px;
+    left: 46.8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1.6px solid white;
+    font: 16px;
+}
+
+.avatar {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    z-index: 2;
+}
+
+.page-image {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.text-page {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: rgb(28, 57, 103);
+    font-weight: 600;
+}
+
+.top-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 12px;
+}
+
+.pro3m-container {
+    display: flex;
+    align-items: center;
+    width: 435.9px;
+    height: 44px;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(244, 12, 68);
+    box-shadow: 0 2px 6px 0 rgba(219, 201, 206, 0.4);
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.pro3m {
+    padding: 12px;
+    width: 206px;
+    height: 16.8px;
+    font-size: 14px;
+    border: solid 1.6px rgb(255, 67, 124);
+    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: white;
+    border-radius: 14px;
+    color: rgb(244, 12, 68);
+}
+
+.combo {
+    padding: 5px 12px 5px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.buy-combo {
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.mua-cart {
+    display: flex;
+    display: block;
+}
+
+.cart-combo-image {
+    display: inline-block;
+}
+
+.chu-mua {
+    display: inline-block;
+    color: white;
+}
+
+.chu-combo {
+    display: block;
+    color: white;
+    margin-top: 4px;
+}
+
+.price {
+    padding-left: 15px;
+    width: 96.625px;
+    height: 31.3px;
+    border-left-width: 1.6px;
+    font-size: 14px;
+    text-align: center;
+    border-left-style: dashed;
+    border-left-color: rgb(250, 246, 247);
+    cursor: pointer;
+    color: white;
+}
+
+.so-875 {
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.so-171 {
+    font-size: 14px;
+}
+
+.pro3m-plus {
+    padding: 12px;
+    width: 239px;
+    height: 16.8px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    background-color: white;
+    border: solid 1.6px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border-radius: 14px;
+    margin-left: 12px;
+}
+
+.but-pha {
+    padding: 12px;
+    width: 222.762px;
+    height: 16.8px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    background-color: white;
+    border: solid 1.6px rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    margin-left: 12px;
+}
+
+.youtube-thumbnail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-thumbnail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.youtube-thumbnail-image {
+    width: 100%;
+}
+
+.youtube-button {
+    height: 48px;
+    width: 68px;
+}
+
+.youtube-logo {
+    width: 68px;
+    height: 48px;
+    position: absolute;
+}
+
+.link-youtube {
+    position: absolute;
+}
+
+.cong-dong-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 39.6px;
+    row-gap: 40px;
+    */
+}
+
+.cong-dong {
+    display: block;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(28, 57, 103);
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.about {
+    width: 274.763px;
+    height: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.down-arrow {
+    margin-left: 171.738px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.down-arrow-2 {
+    margin-left: 191.968px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.down-arrow-3 {
+    margin-left: 146.468px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.item-community {
+    width: 345.725px;
+    height: 256px;
+    border: solid 0.8px rgb(202, 214, 236);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.item-community-header {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 295.725px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(28, 57, 103);
+    background-color: rgb(231, 238, 250);
+    font-weight: bold;
+}
+
+.member-school {
+    width: 295.725px;
+    height: 116px;
+    padding: 25px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.item-member-judge {
+    display: flex;
+    width: 295.725px;
+    height: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thanh-vien-image {
+    width: 116.537px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.thanh-vien {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+.community-image {
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+.item-member-rate {
+    width: 295.725px;
+    height: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.danh-gia {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.sao-sao {
+    margin-left: 176.52px;
+}
+
+.go-to-link {
+    width: 177px;
+    height: 24px;
+    padding: 7px 15px 7px 15px;
+    margin: 20px 44.362px 0px 44.362px;
+    text-align: center;
+    background-color: rgb(225, 4, 34);
+    border-radius: 10px;
+}
+
+.tham-gia-ngay {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
