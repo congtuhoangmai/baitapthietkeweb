@@ -1,0 +1,67 @@
+.trang-chu {
+    margin-left: 209px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.noi-dung-chinh {
+    background-color: rgb(244, 244, 244);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.hang1 {
+    margin-top: 10px;
+}
+
+.ten-hang {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+    .san-pham-container {
+        overflow-x: auto;
+    }
+}
+
+.san-pham-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.san-pham {
+    min-width: 240px;
+    width: 240px;
+    height: 330px;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(88, 89, 91);
+    border-radius: 7px;
+    text-align: center;
+    background-color: white;
+    padding: 0px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart-icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 5px;
+    right: 10px;
+}
+
+.san-pham:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+.noi-dung-san-pham img {
+    width: 240px;
+    height: 240px;
+}

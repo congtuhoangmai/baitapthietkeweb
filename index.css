@@ -1,0 +1,287 @@
+.anh-lon {
+    height: 480px;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+}
+
+.footer-top-item {
+    cursor: pointer;
+}
+
+.home_icon_top a {
+    opacity: 0;
+}
+
+.pro-loop-name {
+    height: 20px !important;
+    width: 243px !important;
+}
+
+.btn_copy {
+    background-color: rgb(135, 172, 190) !important;
+}
+
+.home_about_item_discount {
+    color: rgb(135, 172, 190) !important;
+}
+
+.tieu-de:hover {
+    color: rgb(135, 172, 190) !important;
+}
+
+.section-title-center {
+    font-size: 35px;
+}
+
+.anh-cuddleme {
+    width: 241px;
+    height: 241px;
+}
+
+.btn_copy {
+    margin-left: 140px;
+}
+
+@media screen and (max-width: 600px) {
+    .option-mua-1,
+    .option-mua-2,
+    .option-mua-3,
+    .option-mua-4,
+    .option-mua-5,
+    .option-mua-6,
+    .option-mua-7,
+    .option-mua-8 {
+        max-width: 370px;
+        max-height: 330px;
+    } 
+
+    .anh-mua {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .pro-loop-name {
+        max-width: 150px;
+    }
+}
+
+.option-mua-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.option-mua-8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    color: rgb(88, 89, 91);
+    display: flex;
+    transform:  translate(-50%, -50%) scale(0);
+    visibility: hidden;
+    background-color: white;
+    border-radius: 7px;
+
+    transition: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform:  translate(-50%, -50%) scale(1);
+}
+
+
+.anh-mua {
+    width: 300px;
+    height: 300px;
+}
+
+.thong-tin-chi-tiet {
+    margin-left: 10px;
+}
+
+.thong-so {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.chon-so-luong {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.quantity {
+    background-color: rgb(180, 185, 189);
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.add-to-cart {
+    background-color: rgb(219, 144, 135);
+    border-radius: 12px;
+    font-size: 16px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.add-to-cart:hover {
+    opacity: 0.8 !important;
+    cursor: pointer;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+    color: rgb(219, 144, 135);
+    cursor: pointer;
+}
+
+
